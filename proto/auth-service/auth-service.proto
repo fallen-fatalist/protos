@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "fatalist.auth-service.v1;authservice-v1";
+option go_package = "fatalist.authservice.v1;authv1";
 
 service Auth {
     rpc Register (RegisterRequest) returns (RegisterResponse);   
